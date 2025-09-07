@@ -3,90 +3,91 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Inove Builders - Home Addition em Massachusetts</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      line-height: 1.5;
-      color: #333;
-    }
-    header, section {
-      padding: 20px;
-    }
-    .hero {
-      background: #f2f2f2;
-      text-align: center;
-    }
-    .media img, .media video {
-      width: 100%;
-      max-width: 600px;
-      display: block;
-      margin: 10px auto;
-    }
-    .cta {
-      text-align: center;
-      background: #004aad;
-      color: #fff;
-      padding: 30px 20px;
-    }
-    .cta a {
-      background: #fff;
-      color: #004aad;
-      padding: 10px 20px;
-      text-decoration: none;
-      border-radius: 4px;
-      display: inline-block;
-      margin-top: 15px;
-    }
-    @media (min-width: 768px) {
-      header, section {
-        padding: 40px;
-      }
-    }
-  </style>
+  <title>Inove Builders - Reformas e Ampliações</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <!-- Bloco 1: Atenção -->
-  <header class="hero">
-    <h1>Amplie Seu Espaço com a Inove Builders</h1>
-    <p>Serviço de Home Addition em Massachusetts</p>
+  <header>
+    <nav>
+      <div class="logo">Inove Builders</div>
+      <ul>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#services">Serviços</a></li>
+        <li><a href="#projects">Projetos</a></li>
+        <li><a href="#testimonials">Depoimentos</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <!-- Bloco 2: Interesse -->
+  <section class="hero">
+    <h1>Transforme sua Casa</h1>
+    <p>Especialistas em Home Addition e Remodelação em Massachusetts</p>
+    <a class="btn" href="#contact">Solicite um Orçamento</a>
+  </section>
+
   <section id="about">
-    <h2>Transforme sua casa</h2>
-    <p>Adicione quartos, escritórios ou áreas de lazer com nossa equipe especializada em Home Addition.</p>
-    <div class="media">
-      <img src="img/exemplo-projeto.jpg" alt="Exemplo de projeto" />
-      <video controls src="videos/tour.mp4"></video>
+    <h2>Planejamento e Execução de Qualidade</h2>
+    <p>A Inove Builders oferece soluções completas para ampliar e renovar sua casa, combinando design personalizado e construção eficiente.</p>
+  </section>
+
+  <section id="services">
+    <h2>Nossos Serviços</h2>
+    <div class="services-grid">
+      <div>
+        <h3>Home Additions</h3>
+        <p>Ampliações integradas que aumentam o valor e espaço da sua casa.</p>
+      </div>
+      <div>
+        <h3>Cozinhas</h3>
+        <p>Planejamento moderno para o coração do seu lar.</p>
+      </div>
+      <div>
+        <h3>Banheiros</h3>
+        <p>Refinamento e conforto em cada detalhe.</p>
+      </div>
+      <div>
+        <h3>Design & Build</h3>
+        <p>Equipe única para projeto e construção.</p>
+      </div>
     </div>
   </section>
 
-  <!-- Bloco 3: Desejo -->
-  <section id="benefits">
-    <h2>Por que escolher a Inove Builders?</h2>
-    <ul>
-      <li>Equipe certificada em Massachusetts</li>
-      <li>Materiais de alta qualidade</li>
-      <li>Projetos personalizados para sua necessidade</li>
-    </ul>
+  <section id="projects">
+    <h2>Projetos Recentes</h2>
+    <div class="gallery-grid">
+      <img src="https://via.placeholder.com/600x400?text=Projeto+1" alt="Projeto 1" />
+      <img src="https://via.placeholder.com/600x400?text=Projeto+2" alt="Projeto 2" />
+      <img src="https://via.placeholder.com/600x400?text=Projeto+3" alt="Projeto 3" />
+      <img src="https://via.placeholder.com/600x400?text=Projeto+4" alt="Projeto 4" />
+    </div>
   </section>
 
-  <!-- Bloco 4: Depoimentos -->
   <section id="testimonials">
-    <h2>O que nossos clientes dizem</h2>
-    <blockquote>
-      <p>"A Inove Builders transformou nossa casa! O projeto ficou perfeito."</p>
-      <cite>— Cliente Satisfeito</cite>
-    </blockquote>
+    <h2>Depoimentos</h2>
+    <div class="testimonial">
+      <p>"A equipe entregou nossa ampliação no prazo e com qualidade impecável."</p>
+      <cite>— Maria S.</cite>
+    </div>
+    <div class="testimonial">
+      <p>"Profissionais dedicados que transformaram nossa cozinha!"</p>
+      <cite>— João P.</cite>
+    </div>
   </section>
 
-  <!-- Bloco 5: Ação -->
-  <section class="cta" id="contact">
-    <h2>Pronto para ampliar sua casa?</h2>
-    <p>Entre em contato para uma avaliação gratuita.</p>
-    <a href="mailto:contato@inovebuilders.com">Solicite um Orçamento</a>
+  <section id="contact" class="contact">
+    <h2>Fale Conosco</h2>
+    <form action="https://formspree.io/f/maykbgrx" method="POST">
+      <input type="text" name="nome" placeholder="Nome" required />
+      <input type="email" name="email" placeholder="E-mail" required />
+      <textarea name="mensagem" rows="5" placeholder="Mensagem"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+    <p>E-mail: contato@inovebuilders.com | Tel: (555) 123-4567</p>
   </section>
+
+  <footer>
+    <p>&copy; 2024 Inove Builders. Todos os direitos reservados.</p>
+  </footer>
 </body>
 </html>
